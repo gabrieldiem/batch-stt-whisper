@@ -55,7 +55,7 @@ def saveToFile(text: str, filename: str, folderPath: str):
         raise Exception("Cannot create file to save text")
 
     filepath = f"{folderPath}/{newFileName}.txt"
-    with open(filepath, "w") as file:
+    with open(filepath, "w", encoding="utf-8") as file:
         file.write(text)
         print(f"Saved transcription to {filepath}\n")
 
