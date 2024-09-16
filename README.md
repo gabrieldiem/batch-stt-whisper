@@ -1,6 +1,6 @@
 # Batch STT using Whisper from OpenAI
 
-Using STT (Speech to text), transcribe to a text fil all audio files from a folder using local inference with open source OpenAI's Whisper LLM for audio transcription.
+Using STT (Speech to text), transcribe to a text file all audio files from a folder using local inference with open source OpenAI's Whisper LLM for audio transcription.
 
 ## Requirements
 
